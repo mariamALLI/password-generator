@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <title>Password Generator</title>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/3100053750.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="card container">
+        <div class="card-text">
+            <h1 class="card-bold--text">
+                Generate a <br/> <span>random password</span>
+            </h1>
+            <p class="card-soft--text">
+                Never use an insecure password again
+            </p>
+        </div>
+        
+        <div class="btn-icon">
+            <button onclick="generate()">
+                 <p class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></p>Generate passwords
+            </button>
+        </div>
+        
+        <div class="horizontal-line"></div>
+        
+        
+        <div class="rectangles">
+            <div class="row">
+                <div class="rectangle one">
+                    <p><span id="password-one"></span></p> 
+                </div>
+                <div class="rectangle two">
+                    <p><span id="password-two"></span></p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="rectangle bottom">
+                    <p><span id="password-three"></span></p> 
+                </div>
+                <div class="rectangle bottom">
+                    <p><span id="password-four"></span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
